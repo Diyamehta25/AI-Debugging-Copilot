@@ -190,19 +190,6 @@ FAISS does **not** do keyword matching. It computes the cosine distance between 
 
 ---
 
-##  Relevance to QA Engineering
-
-This project directly mirrors what QA Tools engineers do at companies like Nvidia:
-
-| This Project | Nvidia QA Tools Team |
-|---|---|
-| Automates bug detection in Python code | Automates test failure detection in GPU drivers |
-| RAG pipeline retrieves similar known errors | Test frameworks retrieve similar known failure patterns |
-| 3-layer fallback ensures reliability | QA systems need guaranteed structured output |
-| distilgpt2 generates fix suggestions | AI assists engineers in diagnosing test failures |
-| pytest test suite validates the tool itself | QA tools must themselves be thoroughly tested |
-
----
 
 ##  Author
 
